@@ -1,5 +1,6 @@
-todas_tarefas = []
+todas_tarefas = set()
 
-tarefas_concluidas = []
+copia = todas_tarefas.copy()
 
-tarefas_pendentes = []
+tarefas_concluidas = set()
+
